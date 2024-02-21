@@ -1,7 +1,6 @@
 local curVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
 local resourceName = "hw_discord"
 
-if Config.checkForUpdates then
     CreateThread(function()
         if GetCurrentResourceName() ~= "hw_discord" then
             resourceName = "hw_discord (" .. GetCurrentResourceName() .. ")"
@@ -58,7 +57,6 @@ if Config.checkForUpdates then
         return repoVersion, repoURL, repoBody
     end
     
-end
 
 AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then

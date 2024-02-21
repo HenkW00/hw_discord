@@ -1,7 +1,7 @@
 fx_version 'adamant'
 games { 'gta5' }
 
-author 'buddy#0001'
+author 'HenkW'
 description 'Extended Discord Rich Presence for FiveM - Made by Henk W'
 
 version '1.2.4'
@@ -13,10 +13,5 @@ client_scripts {
 }
 
 server_scripts {
-    'server/main.lua'
-}
-
-escrow_ignore {
-	'config.lua',
-	'fxmanifest.lua'
+    'version.lua'
 }

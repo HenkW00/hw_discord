@@ -5,7 +5,6 @@ Config.ApplicationID = "1188877761364897902" -- Enter your Discord Application I
 Config.UpdateTime = 5 -- 1 = 1 Second -> Updates every Second. Default is 60 Seconds
 Config.Locale = "en" -- Current translations: de, en
 Config.YourDisordServerLink = "https://discord.gg/fE64KR4R"
-Config.checkForUpdates = true -- Recommended to leave on "true"
 
 
 
