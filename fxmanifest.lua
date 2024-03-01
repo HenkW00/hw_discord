@@ -4,7 +4,7 @@ games { 'gta5' }
 author 'HenkW'
 description 'Extended Discord Rich Presence for FiveM - Made by Henk W'
 
-version '1.2.5'
+version '1.2.6'
 lua54 'yes'
 
 client_scripts {
